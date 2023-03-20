@@ -1,19 +1,23 @@
 # sweet_potato_defect_dataset
 A dataset of sweet potato defect  
 =
+This dataset compose of RGB images and the label images, each folder corresponds to a type defect.
+
 RGB images with 6000 x 4000 
+label images with 6000 x 4000
 
-camera : Fuijufilm X100F
+# Capture parameters
+ + camera : Fuijufilm X100F
 
-capture distance : 450 mm
+ + capture distance : 450 mm
 
-shutter speed : 1/40 s
+ + shutter speed : 1/40 s
 
-aperture : f/8
+ + aperture : f/8
 
-Light source : LED light board
+ + Light source : LED light board
 
-Color temperature : 4500 K
+ + Color temperature : 4500 K
 
 A : southern blight
 =
@@ -42,9 +46,13 @@ D: dehiscence
 
 ![image](https://github.com/aipal-nchu/sweet_potato_defect_dataset/blob/main/D-dehiscence/D-00001.png)
 
+Label Tool : GIMP 
+=
 A_label
 
 ![image](https://github.com/aipal-nchu/sweet_potato_defect_dataset/blob/main/A_label/A-00001.png)
+   
+   + Differect part of image will be label in different color, behind is the color
 
-    background:[0, 0, 255] normal:[0, 255, 255] background:[255, 255, 255] 
+      + background:[0, 0, 255] normal:[0, 255, 255] background:[255, 255, 255] 
 
