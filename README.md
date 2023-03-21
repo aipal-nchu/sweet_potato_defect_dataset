@@ -52,7 +52,7 @@ A_label
 
 ![image](https://github.com/aipal-nchu/sweet_potato_defect_dataset/blob/main/A_label/A-00001.png)
    
-   + Differect part of image will be label in different color, behind is the color
+   + Differect part of image will be label in different color, behind is the color bar
 
       + background:[0, 0, 255] normal:[0, 255, 255] background:[255, 255, 255] 
 
